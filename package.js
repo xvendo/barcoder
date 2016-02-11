@@ -24,5 +24,4 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('xvendo:barcoder');
-  api.addFiles('barcoder-tests.js');
 });
